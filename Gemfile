@@ -46,6 +46,11 @@ gem 'delayed_job_active_record'
 
 gem 'annotate'
 
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
+end
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
