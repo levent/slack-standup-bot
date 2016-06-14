@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.3.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 gem 'responders', '~> 2.0'
@@ -43,6 +45,11 @@ gem 'delayed_job'
 gem 'delayed_job_active_record'
 
 gem 'annotate'
+
+group :production do
+  gem 'rails_12factor'
+  gem 'puma'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
