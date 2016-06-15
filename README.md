@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/levent/slack-standup-bot.svg?branch=master)](https://travis-ci.org/levent/slack-standup-bot)
+[![Code Climate](https://codeclimate.com/github/levent/slack-standup-bot/badges/gpa.svg)](https://codeclimate.com/github/levent/slack-standup-bot)
+[![Test Coverage](https://codeclimate.com/github/levent/slack-standup-bot/badges/coverage.svg)](https://codeclimate.com/github/levent/slack-standup-bot/coverage)
+
 ## Standup-Bot
 
 #### Automated Standups for Slack Channels
