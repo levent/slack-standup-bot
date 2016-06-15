@@ -74,5 +74,6 @@ group :test do
   gem 'rspec-rails'
   gem 'faker'
   gem 'factory_girl_rails'
+  gem 'codeclimate-test-reporter', require: nil
 end
 
