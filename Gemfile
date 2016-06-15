@@ -35,6 +35,7 @@ gem 'pry'
 gem 'haml'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'font-awesome-rails'
 gem 'masonry-rails'
 
 gem 'gemoji'
