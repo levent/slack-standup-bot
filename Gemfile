@@ -47,6 +47,9 @@ gem 'delayed_job_active_record'
 
 gem 'annotate'
 
+gem 'rollbar'
+gem 'oj'
+
 group :production do
   gem 'rails_12factor'
   gem 'puma'
